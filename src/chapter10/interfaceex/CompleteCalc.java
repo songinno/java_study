@@ -15,6 +15,12 @@ public class CompleteCalc extends Calculator{
         }
     }
 
+    @Override
+    public void description() {
+        super.description();
+        System.out.println("CompleteCalc에서 오버라이딩");
+    }
+
     public void showInfo() {
         System.out.println("Calc 인터페이스를 구현 완료했습니다.");
     }

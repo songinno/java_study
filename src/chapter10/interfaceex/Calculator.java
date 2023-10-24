@@ -11,4 +11,9 @@ public abstract class Calculator implements Calc {
         return num1 - num2;
     }
 
+    @Override
+    public void description() {
+        Calc.super.description();
+        System.out.println("Calculator에서 오버라이딩");
+    }
 }

@@ -14,7 +14,7 @@ public class Student2 {
 
     public static int getSerialNum() {
         int i = 10;
-//        studentName = "가나다";
+//        studentName = "가나다"; // 오류 발생
         return serialNum;
     }
 

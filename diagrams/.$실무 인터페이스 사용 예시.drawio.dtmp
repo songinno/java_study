@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2023-10-22T12:07:21.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="lRFrTlffaIBfUYMUh1LN" version="22.0.2" type="device">
+  <diagram name="페이지-1" id="DElJpdMzW9e2TkZJoXpF">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rOLeD181yP3YatS4XG4o-1" value="UserInfoWeb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-2" value="&lt;i&gt;UserInfoDao&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rOLeD181yP3YatS4XG4o-1" target="rOLeD181yP3YatS4XG4o-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-4" value="MssqlDao" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-5" value="MysqlDao" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-6" value="OracleDao" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-7" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=-180;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="170" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rOLeD181yP3YatS4XG4o-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="rOLeD181yP3YatS4XG4o-7" target="rOLeD181yP3YatS4XG4o-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
