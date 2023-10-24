@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-10-09T02:45:10.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="CIJokBoe4lUJWGcQZypE" version="22.0.2" type="device">
+  <diagram name="페이지-1" id="GUnL4P69GuJ65LNkUo6X">
+    <mxGraphModel dx="1098" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-2" value="숫자, 문자, 논리 값&lt;br&gt;..." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-4">
+          <mxGeometry y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-3" value="&lt;b&gt;리터럴&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-4">
+          <mxGeometry x="10" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="290" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-9" value="3, &#39;a&#39;, 3.14F,&lt;br&gt;123,456,789L,&lt;br&gt;3.14, ..." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-8">
+          <mxGeometry y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-10" value="&lt;b&gt;상수 풀&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-8">
+          <mxGeometry x="10" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="120" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-14" value="g" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-17">
+          <mxGeometry x="20" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-15" value="&lt;b&gt;변수&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-17">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-16" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GE0pLILDkb7lr7u0Ridy-17">
+          <mxGeometry x="20" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GE0pLILDkb7lr7u0Ridy-2" target="GE0pLILDkb7lr7u0Ridy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GE0pLILDkb7lr7u0Ridy-9" target="GE0pLILDkb7lr7u0Ridy-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="sourcePoint" />
+            <mxPoint x="514" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-20" value="로딩" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GE0pLILDkb7lr7u0Ridy-21" value="대입/복사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
