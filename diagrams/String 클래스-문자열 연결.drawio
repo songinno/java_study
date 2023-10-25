@@ -1,0 +1,50 @@
+<mxfile host="Electron" modified="2023-10-24T05:41:28.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="saTAGktQGFV-Sq_ad0rz" version="22.0.2" type="device">
+  <diagram name="페이지-1" id="ABxPy7wn1ciacpUl5EMG">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-1" value="&quot;java&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-2" value="javaStr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-3" value="&lt;font color=&quot;#ff0000&quot;&gt;X&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQgo-JHqkoiPITFfA0Pc-2" target="bQgo-JHqkoiPITFfA0Pc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="620" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-6" value="&quot;javaandroid&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQgo-JHqkoiPITFfA0Pc-2" target="bQgo-JHqkoiPITFfA0Pc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-8" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.25;position2=0;base=30;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-9" value="새로 생성된 &lt;br&gt;문자열을 가리킴" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-10" value="&quot;android&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-11" value="androidStr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="85" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bQgo-JHqkoiPITFfA0Pc-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQgo-JHqkoiPITFfA0Pc-11" target="bQgo-JHqkoiPITFfA0Pc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="450" as="sourcePoint" />
+            <mxPoint x="920" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
