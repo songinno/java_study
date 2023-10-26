@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.generics;
 
 public class GenericPrinterTest {
     public static void main(String[] args) {
@@ -17,9 +17,9 @@ public class GenericPrinterTest {
         Powder powder2 = (Powder) powderPrinter2.getMaterial();
         System.out.println(powder2);
 
-        GenericPrinter<Object> powderPrinter3 = new GenericPrinter<Object>();
-        powderPrinter3.setMaterial(new Powder());
-        Powder powder3 = (Powder) powderPrinter3.getMaterial();
-        System.out.println(powder3);
+//        GenericPrinter<Object> powderPrinter3 = new GenericPrinter<Object>();
+//        powderPrinter3.setMaterial(new Powder());
+//        Powder powder3 = (Powder) powderPrinter3.getMaterial();
+//        System.out.println(powder3);
     }
 }

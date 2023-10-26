@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-10-25T10:34:59.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="OU6eXuebxmTgZB_Bhwmh" version="22.0.2" type="device">
+  <diagram name="페이지-1" id="-tuffhu2X5ec-0IwhFkr">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-4" value="p1 (0,0.0)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-5" value="p2 (10,10.0)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=0;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="31.07" height="189.38" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="280.46" y="230.81" width="29.34" height="189.73" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-9" value="Width" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="265.13" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AzVrTZx7BlDLIzZRxDG-10" value="Height" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="199.69" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

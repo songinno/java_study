@@ -1,4 +1,4 @@
-package chapter12;
+package chapter12.generics;
 
 public class ThreeDPrinterTest {
     public static void main(String[] args) {
