@@ -21,34 +21,34 @@ public class MemberArrayList {
     }
 
     // 회원 삭제
-    public boolean removeMember(int memberId) {
-        for (int i = 0; i < arrayList.size(); i++) {
-            Member member = arrayList.get(i);
-            int tempId = member.getMemberId();
-
-            if (tempId == memberId) {
-                arrayList.remove(i);
-                return true;
-            }
-        }
-        System.out.println(memberId + "가 존재하지 않습니다.");
-        return false;
-    }
-
-    // 회원 삭제 - Iterator 사용
 //    public boolean removeMember(int memberId) {
-//        Iterator<Member> memberIr = arrayList.iterator();
-//        while (memberIr.hasNext()) {
-//            Member member = memberIr.next();
+//        for (int i = 0; i < arrayList.size(); i++) {
+//            Member member = arrayList.get(i);
 //            int tempId = member.getMemberId();
-//            if (memberId == tempId) {
-//                arrayList.remove(member);
+//
+//            if (tempId == memberId) {
+//                arrayList.remove(i);
 //                return true;
 //            }
 //        }
-//        System.out.println(memberId + " ID를 가진 회원이 존재하지 않습니다.");
+//        System.out.println(memberId + "가 존재하지 않습니다.");
 //        return false;
 //    }
+
+    // 회원 삭제 - Iterator 사용
+    public boolean removeMember(int memberId) {
+        Iterator<Member> memberIr = arrayList.iterator();
+        while (memberIr.hasNext()) {
+            Member member = memberIr.next();
+            int tempId = member.getMemberId();
+            if (memberId == tempId) {
+                arrayList.remove(member);
+                return true;
+            }
+        }
+        System.out.println(memberId + " ID를 가진 회원이 존재하지 않습니다.");
+        return false;
+    }
 
     // 전체 회원 출력
     public void showAllMember() {
