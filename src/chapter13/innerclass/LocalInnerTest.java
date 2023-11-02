@@ -4,8 +4,8 @@ class Outer {
     int outNum = 100;
     static int sNum = 200;
 
-    Runnable getRunnable(int i) { // 외부 클래스의 메서드
-        int num = 100;
+    Runnable getRunnable(final int i) { // 외부 클래스의 메서드
+        final int num = 100;
 
         class MyRunnable implements Runnable { // 지역 내부 클래스
             int localNum = 10;
