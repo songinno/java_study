@@ -1,4 +1,4 @@
-package chapter15;
+package chapter15.others;
 
 import java.util.Scanner;
 
