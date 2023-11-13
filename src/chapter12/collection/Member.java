@@ -1,5 +1,7 @@
 package chapter12.collection;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Member implements Comparable<Member> {
     // 필드
     private int memberId;
@@ -43,6 +45,11 @@ public class Member implements Comparable<Member> {
         // String 클래스에 재정의 되어 있는 compareTo() 메서드를 활용
         return this.memberName.compareTo(member.memberName);
     }
+
+
+
+    // 회원 이름순 정렬 처리 + 중복 기준은 회원 ID
+
 
     // getter, setter
     public int getMemberId() {
