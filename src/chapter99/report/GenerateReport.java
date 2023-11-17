@@ -69,13 +69,30 @@ public class GenerateReport {
             // 현재 과목에 대해서만
             if (subject.getSubjectId() == score.getSubject().getSubjectId()) {
                 String grade;
-                // 특정 과목이 필수 과목인 경우
-                if (subject.getSubjectId() == majorId) {
-                    grade = gradeEvaluations[Define.SAB_TYPE].getGrade(score.getPoint());
-                // 특정 과목이 일반 과목인 경우
+                if (subject.getGradeType() == Define.PF_TYPE) {
+                    // PassFail 방식 - 익명 클래스로 구현
+                    GradeEvaluation passFailEvaluation = new GradeEvaluation() {
+                        @Override
+                        public String getGrade(int point) {
+                            if (point >= 70) return "P";
+                            else return "F";
+                        }
+                    };
+                    grade = passFailEvaluation.getGrade(score.getPoint());
+
+                    // PassFail 방식 - 람다식으로 구현
+//                    GradeEvaluation passFailEvaluation = point -> (point >= 70) ? "P" : "F";
+//                    grade = passFailEvaluation.getGrade(score.getPoint());
                 } else {
-                    grade = gradeEvaluations[Define.AB_TYPE].getGrade(score.getPoint());
+                    // 특정 과목이 필수 과목인 경우
+                    if (subject.getSubjectId() == majorId) {
+                        grade = gradeEvaluations[Define.SAB_TYPE].getGrade(score.getPoint());
+                        // 특정 과목이 일반 과목인 경우
+                    } else {
+                        grade = gradeEvaluations[Define.AB_TYPE].getGrade(score.getPoint());
+                    }
                 }
+
                 buffer.append(score.getPoint() + ":" + grade);
             }
         }

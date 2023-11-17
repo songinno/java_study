@@ -14,6 +14,7 @@ class Outer {
             public void run() {
 //                num = 200; // 지역변수는 상수로 바뀌므로, 값을 변경할 수 없음 -> 오류 발생
 //                i = 100; // 매개 변수도 지역 변수처럼 상수로 바뀌므로, 값을 변경할 수 없음 -> 오류 발생
+                localNum++; // 지역 내부 클래스 내부의 변수는 값 변경 가능
                 System.out.println("i = " + i);
                 System.out.println("num = " + num);
                 System.out.println("localNum = " + localNum);
