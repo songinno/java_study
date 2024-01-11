@@ -1,7 +1,5 @@
 package chapter12.practice;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.HashMap;
 
 public class CarFactory {

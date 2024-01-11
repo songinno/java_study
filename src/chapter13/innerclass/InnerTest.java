@@ -15,6 +15,7 @@ class OutClass { // 외부 클래스
     class InClass { // 인스턴스 내부 클래스
         int inNum = 100; // 내부 클래스의 인스턴스 변수
 //        static int sInNum = 200; // 오류 발생 - 인스턴스 내부 클래스에 정적 변수 선언 불가
+        static final int sfInNum = 1000; // static final 변수(상수)는 선언 가능
 
         void inTest() {
             System.out.println("OutClass num = " + num + "(외부 클래스의 인스턴스 변수)");
@@ -33,5 +34,7 @@ public class InnerTest {
         OutClass outClass = new OutClass();
         System.out.println("외부 클래스 이용하여 내부 클래스 기능 호출");
         outClass.usingClass();
+
+        System.out.println(OutClass.InClass.sfInNum);;
     }
 }

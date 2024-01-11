@@ -1,7 +1,5 @@
 package chapter12.collection;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Member implements Comparable<Member> {
     // 필드
     private int memberId;
